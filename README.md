@@ -1,5 +1,13 @@
 # Estimating-Mean-Total-Costs-under-Moderate-Censoring
-MSC project: Benchmarking different parametric and non-parametric approaches to medical cost data survival analysis with highly censored and right skewed data without cost intervals.
+
+
+#### 📝 Read the paper [here](https://github.com/JonasWeinert/Estimating-Mean-Total-Costs-under-Moderate-Censoring/blob/main/Weinert_MeanCostUnderModerateCensoring.docx)
+---
+
+***In this MSC project, I benchmarked different parametric and non-parametric approaches to medical cost data survival analysis by***
+- Implementing several models from the current academic discourse in stata (some self operationalised, w/o packages)
+- Writing my own bootstrapping program to obtain comparable standard errors for model comparison.
+
 
 ## Abstract
 ###Background
@@ -13,9 +21,4 @@ Seven possible approaches (one nonparametric, three parametric complete case est
 Ignoring censored observations leads to an expected bias in the total cost estimate. The nonparametric and adjusted parametric models produce the lowest uncertainty around the estimate. The lack of cost histories and covariates poses the biggest obstacle to more robust estimations.
 
 
-📝 Read the paper [here](#)
 
-
-***In this project, I benchmarked different parametric and non-parametric approaches to medical cost data survival analysis by***
-- Implementing several models from the current academic discourse in stata (some self operationalised, w/o packages)
-- Writing my own bootstrapping program to obtain comparable standard errors for model comparison.
